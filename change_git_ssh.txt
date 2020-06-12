@@ -1,3 +1,6 @@
+https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
+<to setup ssh>
+
 to change to ssh origin
 git remote rm origin
 git remote add origin git@github.com:philk0/files.git
