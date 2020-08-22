@@ -74,4 +74,5 @@ print(emp_2.raise_amount)
 # my_date = datetime.date(1961, 2, 26)
 # print(Employees.is_weekday(my_date))
 # print((Employees.day_of_week(my_date)))
+# Added to test git
 
