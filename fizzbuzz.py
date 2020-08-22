@@ -1,4 +1,4 @@
-#!/usr/bin/python3.6
+#!/usr/bin/python3.8
 # _*_ coding: utf-8 _*_
 """
 
@@ -8,7 +8,8 @@ SYNOPSIS
 
 DESCRIPTION
 
-    This script prints out a sequence of numbers from a provided range with the following instructions:
+    This script prints out a sequence of numbers from a provided range 
+    with the following instructions:
     - if the number is divisible by 3, then print out "fizz"
     - if the number is divisible by 5, then print out "buzz"
     - if the number is divisible 3 and 5, then print out "fizzbuzz"
