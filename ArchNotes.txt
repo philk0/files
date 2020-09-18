@@ -1,0 +1,69 @@
+XFCE Notes
+
+1. Whisper menu is the full launch menu, can be put on any panel
+2. Guake is an app that puts a terminal at top of screen, triggered by F12
+3. Tile windows - commands in 'Settings - Window Manager' menu.
+4. Unselect desktop icons with 'Desktop Settings - icons'
+
+Arch Linux Notes
+1. sudo pacman -Syy    - update pacman database cache
+2. sudo pacman -Syu    - updates repositories and updates installed packages
+3. use yay to install from aur's  -  yay -S zeal
+4. <ctrl-alt> right/left arrow  -  Switch workspaces(desktops)
+
+yay
+1. ** Do not use sudo, it will ask for it if it needs it. **
+2. Install package :- yay -S <package>
+3. Search for package :- yay -Ss <package>
+4. Update system including AUR :- yay -Syu
+5. Update only AUR packages :- yay Sua
+6. Remove unwanted/not needed dependencies :- yay -Yc
+7. Remove package :- yay -R <package>
+
+Tmux help file for new key bindings
+1. Prefixe - Ctrl+Space
+2. Virticle Split - prefix |
+3. Horizontal split - prefix -
+4. Alt+arrows - Move between panes
+5. Reload config - prefix r
+6. New Window - prefix c
+7. Next Window - prefix n
+8. Previous Window - prefix p
+9. List Windows - prefix w
+10. Ajust width of pane - prefix followed by Alt+arrow
+
+Git
+1. git add <file>
+2. git status
+3. git commit "Comment"
+4. git push origin master
+
+Ranger
+1. ?m - opens man pager for ranger
+2. ?k - opens a list of keybindings
+3. ?c - oens a list of available commands and descriptions
+4. ?s opens a list of settings and current values
+
+Arch Maintenace
+1.Arch Wiki system maintenance help page
+2. systemctl --failed - to check for issues!
+3. sudo journalctl -p 3 -xb - to check journal logs
+4. sudo pacman -Syy - check for updates
+5. sudo pacman -Syu - update
+6. yay -Syy
+7. yay -Syu
+8.sudo pacman -Sc - delete cache packages
+9. yay -Sc - as above
+10. yay -Yc - clean unwanted dependencies
+11. sudo pacman -Qdtq | pacman -Rns - Remove orphaned packages
+12. bleachbit - check size of cache etc
+13. du -sh ~/.cache/ - check size of cache foler
+14. rm -rf ~/.cache/* - delete all cached files
+15. du -sh /var/log/journal/ - check journal logs size
+16. sudo journalctl --vacuum-time=2weeks - delete all journals up to 2 weeks back
+17. sudo reflector -c 'United Kingdom' -a 6 --sort rate --save /etc/pacman.d/mirrorlist
+	Check for best mirrors and then write to /etc/pacman.d/mirrolist
+18.
+
+TODO
+a.
