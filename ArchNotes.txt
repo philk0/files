@@ -45,14 +45,14 @@ Ranger
 4. ?s opens a list of settings and current values
 
 Arch Maintenace
-1.Arch Wiki system maintenance help page
+1. Arch Wiki system maintenance help page
 2. systemctl --failed - to check for issues!
 3. sudo journalctl -p 3 -xb - to check journal logs
 4. sudo pacman -Syy - check for updates
 5. sudo pacman -Syu - update
 6. yay -Syy
 7. yay -Syu
-8.sudo pacman -Sc - delete cache packages
+8. sudo pacman -Sc - delete cache packages
 9. yay -Sc - as above
 10. yay -Yc - clean unwanted dependencies
 11. sudo pacman -Qdtq | pacman -Rns - Remove orphaned packages
